@@ -38,7 +38,7 @@ test_activity <- join(y_test, activity_labels)
 test_activity$V1 <- NULL ##Remove activity number.
 
 
-##Asign columns names.
+##Assign columns names.
 colnames(test_activity) <- "Activity"
 colnames(train_activity) <- "Activity"
 colnames(subject_test) <- "Subject"
